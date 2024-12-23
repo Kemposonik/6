@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Самый крутой сайт</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-bg">
+      <div class = "title">Guchu</div>
+    </div>
+    <figure>
+      <img class="logo" src="./assets/Mercedes-Logo.svg.png" width="100">
+    </figure>
+    <ul class="knopki">
+      <li class="knopki-item">
+      <a href="#t1">Гиперссылки</a></li>
+      &nbsp; &nbsp;
+      <li class="knopki-item">
+      <a href="https://t.me/GrAmIlkIn">Телеграм</a></li>
+      &nbsp; &nbsp;
+      <li class="knopki-item">
+      <a href="">Обновить</a></li>
+    </ul>
+   </header>
+   <main>
+   <div class="table-small">
+    <table>
+          <tr><th style="background-color:  rgb(77, 75, 75)">Заголовок 1</th><th style="background-color:  rgb(77, 75, 75)">Заголовок 2</th><th style="background-color:  rgb(77, 75, 75)" colspan="2">Заголовок 3</th></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">11</td><td style="background-color: rgb(77, 75, 75)">12</td> <td style="background-color: rgb(77, 75, 75)">13</td><td style="background-color: rgb(77, 75, 75)">14</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">21</td><td style="background-color: rgb(77, 75, 75)">22</td> <td style="background-color: rgb(77, 75, 75)">23</td><td style="background-color: rgb(77, 75, 75)">24</td></tr> 
+          <tr><td style="background-color: white">31</td><td style="background-color: white">32</td> <td style="background-color: white">33</td><td style="background-color: white">34</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">41</td><td style="background-color: rgb(77, 75, 75)">42</td> <td style="background-color: rgb(77, 75, 75)">43</td><td style="background-color: rgb(77, 75, 75)">44</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">51</td><td style="background-color: rgb(77, 75, 75)">52</td> <td style="background-color: rgb(77, 75, 75)">53</td><td style="background-color: rgb(77, 75, 75)">54</td></tr> 
+        </table>
+        </div>
+
+    <h2 id = "t1">Список гиперссылок</h2>
+    <ul>
+        <li><a href="http://kubsu.ru">Абсолютная гиперcсылка на сайт КубГУ http</a></li> 
+        <li><a href="https://kubsu.ru">Абсолютная ссылка на сайт КубГУ https</a></li>
+        <li>
+            <a href="https://upload.wikimedia.org/wikipedia/ru/thumb/a/a2/Логотип_КубГУ.png/640px-Логотип_КубГУ.png">
+            <img src="./assets/image.png" width="200">
+          </a>
+        </li>
+        <li><a href="newindex.html">Сокращенная ссылкa на внутреннюю страницу</a></li>
+        <li><a href="index.html">Сокращенная ссылкa на главную страницу</a></li>
+        <li><a href="#t1">Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="https://en.wikipedia.org/w/index.php?search=Python&title=Special:Search&go=Go">Ссылка c 3 параметрами в URL</a></li>
+        <li><a href="https://moodle.kubsu.ru/course/index.php?categoryid=12">Ссылка с параметром id в URL</a></li>
+        <li><a href="vnytr.html">Относительная на страницу в текущем каталоге</a></li>
+        <li><a href="https://www.microsoft.com/en-us/about">Относительная на страницу в каталоге about</a></li>
+        <li><a href="Первая/Pervaya.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="Первая/Вторая/Vtoraya.html">Относительная на страницу в каталоге двумя уровнями выше</a></li>
+        <li> <a href="#">Контекстная</a> в тексте абзаца</li>
+        <li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware#Analog_computers">Ссылкa на фрагмент страницы стороннего сайта</a></li>
+        <li><img src="./assets/photo_2024-09-12_22-02-51.jpg" width="400" height="200" usemap="#map" alt="Фоточка с 3 ссылками"></li>
+        <p><map name="map">
+            <area shape="rect" alt="Первая ссылка в фото" 
+            coords="18,50,138,160" 
+            href="https://www.mi.com/ru/">
+            <area shape="rect" alt="Вторая ссылка в фото" 
+            coords="140,50,255,165" href="https://www.apple.com/">
+            <area shape="circle" alt="Третья ссылка в фото" 
+            coords="319,110,60" 
+            href="https://www.intel.com/content/www/us/en/support/ru-banner-inside.html">
+          </map></p> 
+          <li><a href="">Ссылкa с пустым href</a></li>
+          <li><a>Ссылкa без href</a></li>
+          <li><a href="http://" rel="nofollow">Запрещенная поисковикам ссылка</a></li>
+          <li><a href="http://" rel="noindex">Вторая запрещенная поисковикам ссылка </a></li>
+          <li><a>Ссылки с title</a></li>
+            <ol>
+                <li><a href="https://www.samsung.com/ru/">Самсунг
+                  <title>Samsung</title>
+                </a>
+                <li><a href="https://www.apple.com/" rel="noindex">Apple 
+                  <title>Apple</title>
+                </a></li>
+                </ol>
+            <li> <a href="ftp://user:pass123@site.ru/Temp/file.txt">Ссылка с авторизацией</a></li>
+            <li><a href="Market.html">Колькулятор</a></li>
+         </ul>
+         <div class="table-container">
+          <div class="table-large">
+        <table>
+          <tr><th style="background-color: rgb(77, 75, 75)">Заголовок 1</th><th style="background-color:  rgb(77, 75, 75)">Заголовок 2</th><th style="background-color:  rgb(77, 75, 75)" colspan="2">Заголовок 3</th></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">11</td><td style="background-color: rgb(77, 75, 75)">12</td> <td style="background-color: rgb(77, 75, 75)">13</td><td style="background-color: rgb(77, 75, 75)">14</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">21</td><td style="background-color: rgb(77, 75, 75)">22</td> <td style="background-color: rgb(77, 75, 75)">23</td><td style="background-color: rgb(77, 75, 75)">24</td></tr> 
+          <tr><td style="background-color: white">31</td><td style="background-color: white">32</td> <td style="background-color: white">33</td><td style="background-color: white">34</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">41</td><td style="background-color: rgb(77, 75, 75)">42</td> <td style="background-color: rgb(77, 75, 75)">43</td><td style="background-color: rgb(77, 75, 75)">44</td></tr> 
+          <tr><td style="background-color: rgb(77, 75, 75)">51</td><td style="background-color: rgb(77, 75, 75)">52</td> <td style="background-color: rgb(77, 75, 75)">53</td><td style="background-color: rgb(77, 75, 75)">54</td></tr> 
+        </table>
+      </div>
+         </div>
+      <div class="other-section">
+        <p></p>
+    </div>  
+        <p>
+            <label for="name">Введите ФИО:</label>
+              <br>
+              <input type="text" name="name" id="name" required>
+            </p>
+          <p>
+              <label for="number">Введите телефон:</label>
+              <br>
+              <input type="number" name="number" id="number" required>
+            </p>
+            <p>
+              <label for="email">Введите email:</label>
+              <br>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="date">Введите дату рождения:</label>
+                <br>
+                <input type="date" name="date" id="date" required>
+              </p>
+              <legend>Выберите пол</legend>
+                <label>
+                <input type="radio" name="level">
+                МУЖ
+                </label>
+                <label>
+                <input type="radio" name="level"checked>
+                ЖЕН
+                </label>
+                <label>
+                <input type="radio" name="level">
+                Неизвестен
+                </label>
+                <br>
+
+                <p>
+                  <legend>Выберите любимый язык программирования:</legend>
+                  <select>
+                    <option атрибуты>Не определился</option>
+                    <option атрибуты>Pascal</option>
+                    <option атрибуты>C</option>
+                    <option атрибуты>C++</option>
+                    <option атрибуты>JavaScript</option>
+                    <option атрибуты>PHP</option>
+                    <option атрибуты>Python</option>
+                    <option атрибуты>Java</option>
+                    <option атрибуты>Haskel</option>
+                    <option атрибуты>Clojure</option>
+                    <option атрибуты>Prolog</option>
+                    <option атрибуты>Scala</option>
+                    <option атрибуты>Другой</option>
+                  </select>
+                </p>
+                <p>
+                  <legend>Напишите автобиографию:</legend>
+                  <textarea атрибуты >
+                    Печатать...
+                  </textarea>
+                </p>
+                <p>
+                  <label for="oznak">С контрактом ознакомлен</label>
+                  <input type="checkbox" атрибуты>
+
+                </p>
+
+                  
+            <button type="submit">Сохранить</button>
+        </form>
+          
+    </ul>
+   </main>
+    <footer class="footer"id="top" >
+        <div class="footer__vrapper" >
+           <a href="#!"> <img src="./assets/vk (2).svg" alt="vk"></a>
+            <a href="#!"><img src="./assets/Vector (1).svg" alt="inst"></a>
+            <a href="#!"> <img src="./assets/twitter.svg" alt="tw"></a>
+            <a href="#!"> <img src="./assets/Vector (3).svg" alt="git"></a>
+            <a href="#!"> <img src="./assets/Vector (2).svg" alt="li"></a>
+        </div>
+        <div class="footer__text">
+            <p class="footer-text__element">© 2022 frontend-dev.com</p>
+        </div>
+    </footer>r>
+  <link rel="stylesheet" href="css/Style.css">
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
